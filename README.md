@@ -149,7 +149,7 @@ As per a Prerequisite the Secure Parameters in Parameter Store must be configure
 
     - Verify if AWS Connector from AWS Developer Tools
 	    + Go to below url and verify
-	    + URL: `https://github.com/settings/installations```
+	    + URL: `https://github.com/settings/installations`
     - Create Github Connection from AWS Developer Tools
 	    + Go to Services -> CodePipeline -> Create Pipeline
 	    + In Developer Tools -> Click on Settings -> Connections -> Create Connection
@@ -243,15 +243,15 @@ Go to Services -> CodePipeline -> Create Pipeline
 - Go to:
 
     ```
-    http://devdemo1.devopsincloud.com
+    http://devdemo1.<your-route53-domain>.com
     ```
 
     ```
-    http://devdemo1.devopsincloud.com/app1/index.html
+    http://devdemo1.<your-route53-domain>.com/app1/index.html
     ```
 
     ```
-    http://devdemo1.devopsincloud.com/app1/metadata.html
+    http://devdemo1.<your-route53-domain>.com/app1/metadata.html
     ```
 
 - Upload index.html and test
@@ -358,15 +358,15 @@ Update the IAM Role created as part of this stage-deploy-tf-iacdevops-aws-cp1 Co
 - Go to: 
 
     ```
-    http://stagedemo1.devopsincloud.com
+    http://stagedemo1.<your-route53-domain>.com
     ```
 
     ```
-    http://stagedemo1.devopsincloud.com/app1/index.html
+    http://stagedemo1.<your-route53-domain>.com/app1/index.html
     ```
 
     ```
-    http://stagedemo1.devopsincloud.com/app1/metadata.html
+    http://stagedemo1.<your-route53-domain>.com/app1/metadata.html
     ```
 
 ### Cleanup

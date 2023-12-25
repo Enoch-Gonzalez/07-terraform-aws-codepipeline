@@ -404,7 +404,7 @@ Update the IAM Role created as part of this stage-deploy-tf-iacdevops-aws-cp1 Co
     ```
     
     ```bash
-    git commit -am "Destroy Resources"
+    git commit -m "Destroy Resources"
     ```
 
     - Push changes to Remote Repository
